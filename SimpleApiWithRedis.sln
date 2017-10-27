@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApiWithRedis", "SimpleApiWithRedis\SimpleApiWithRedis.csproj", "{5196523B-6023-4422-895D-2FBB39A3B830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApiWithRedis.Tests", "SimpleApiWithRedis.Tests\SimpleApiWithRedis.Tests.csproj", "{E187EB5B-B473-40A8-884C-0D493875DAFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C170AF73-59E3-4063-9419-17A4312B7C7E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5196523B-6023-4422-895D-2FBB39A3B830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5196523B-6023-4422-895D-2FBB39A3B830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5196523B-6023-4422-895D-2FBB39A3B830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5196523B-6023-4422-895D-2FBB39A3B830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E187EB5B-B473-40A8-884C-0D493875DAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E187EB5B-B473-40A8-884C-0D493875DAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E187EB5B-B473-40A8-884C-0D493875DAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E187EB5B-B473-40A8-884C-0D493875DAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96794EDB-7833-4DD8-AD01-07D59028103F}
+	EndGlobalSection
+EndGlobal
